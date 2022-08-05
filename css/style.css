@@ -1,0 +1,46 @@
+:root {
+  --titleColor: #232631;
+  --subtitleColor: #656565;
+  --tertierTitleColor: #858585;
+  --primaryColor: #5A4FCF;
+  --secondaryColor: #FDC886;
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FAFAFA;
+}
+
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 20px;
+  aspect-ratio: 1;
+}
+
+.logo-title {
+  font-size: 18px;
+  line-height: 10px;
+
+}
